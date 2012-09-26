@@ -1,0 +1,12 @@
+{application, travis_test,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { travis_test_app, []}},
+  {env, []}
+ ]}.
